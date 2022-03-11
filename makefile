@@ -1,4 +1,4 @@
-all: build_bin run_bin
+all: build run
 
 build:
 	nasm -f bin boot.asm
